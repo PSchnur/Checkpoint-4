@@ -1,46 +1,36 @@
 import React from 'react';
+import './Works.css';
+import CardWork from './CardWork';
 
 export default function Works() {
   return (
-    <div>
-      <h1>Works</h1>
-
-      <div className="contact">
-        <div>
-          <h2>Contact Me</h2>
-          <p>
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </p>
+    <div id="works">
+      <div className="worksContainer">
+        <h1>Works</h1>
+        <div className="navbarTag">
+          <ul>
+            <li>
+              <a href="#all">All</a>
+            </li>
+            <li>
+              <a href="#React">React</a>
+            </li>
+            <li>
+              <a href="#JavaScript">JavaScript</a>
+            </li>
+            <li>
+              <a href="#HTML/CSS">HTML/CSS</a>
+            </li>
+          </ul>
         </div>
         <div>
-          <form>
-            <label htmlFor="firstname">
-              Prénom
-              <input type="text" placeholder="Prénom" />
-            </label>
-            <label htmlFor="lastname">
-              Nom
-              <input type="text" placeholder="Nom" />
-            </label>
-
-            <label htmlFor="email-address">
-              Adresse Email
-              <input
-                name="email"
-                type="email"
-                placeholder="email@exemple.com"
-              />
-            </label>
-
-            <label htmlFor="message">
-              <textarea name="message" placeholder="message" />
-            </label>
-
-            <button type="submit">Send</button>
-          </form>
+          <CardWork />
         </div>
+
+        <div> Projet 2</div>
+        <div> Projet 3</div>
+        <div> Projet 4</div>
+        <div> Projet 5</div>
       </div>
     </div>
   );

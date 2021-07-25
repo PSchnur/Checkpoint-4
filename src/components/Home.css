@@ -1,4 +1,17 @@
 .heroContainer {
-  height: 650px;
+  height: 700px;
   padding: 20px 0;
+  text-align: center;
+}
+
+.heroContainer h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  color: #d0826f;
+  padding-top: 400px;
+}
+.heroContainer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #dfe0e0;
 }
